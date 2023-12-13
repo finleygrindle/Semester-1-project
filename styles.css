@@ -4,12 +4,17 @@ body {
     font-weight: 400;
 }
 
+.header {
+    height: 60px;
+}
+
 button {
     border: none;
     background: none;
     color: white;
     font-family: "futura-pt", sans-serif;
-    font-size: 16px;
+    font-size: 23px;
+    padding-right: 20px;
 }
 
 span {
@@ -19,17 +24,17 @@ span {
     padding: 10px;
     vertical-align: middle;
     color: black;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 600;
 }
 
-h2 {
+h1 {
     color: white;
     font-style: normal;
     font-weight: 600;
 }
 
-h3 {
+h2 {
     color: #D1E8C5;
     font-family: "futura-pt", sans-serif;
     font-style: italic;
@@ -39,10 +44,19 @@ h3 {
 
 .typ {
     width: 400px;
-    border: 1px solid white;
+    border: 1px solid #D1E8C5;
 }
 
 .container {
     display: inline-block;
+    padding-left: 40px;
+    padding-top: 20px;
     color: white;
+}
+
+.typcaption {
+    display: inline-block;
+    width: 300px;
+    padding-left: 10px;
+    vertical-align: top;
 }
