@@ -1,20 +1,23 @@
 body {
     background-color: black;
+    font-family: "futura-pt", sans-serif;
 }
 
 button {
     border: none;
     background: none;
     color: white;
+    font-family: "futura-pt", sans-serif;
 }
 
 span {
-    height: 50px; 
-    line-height: 50px;
+    height: 60px; 
+    line-height: 60px;
     background-color: #D1E8C5;
     padding: 10px;
     vertical-align: middle;
     color: black;
+    font-size: 30px;
 }
 
 h2 {
@@ -23,4 +26,12 @@ h2 {
 
 h3 {
     color: #D1E8C5;
+    font-family: "futura-pt", sans-serif;
+    font-style: italic;
+    padding-left: 10px;
+}
+
+.typ {
+    width: 400px;
+    border: 1px solid white;
 }
