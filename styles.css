@@ -47,10 +47,30 @@ h2 {
     border: 1px solid white;
 }
 
+.pos {
+    border: 1px solid white;
+    width: 400px;
+}
+
+.pos1 {
+    border: 1px solid white;
+    width: 700px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#D1E8C5;
+}
+
 .container {
     display: inline-block;
     padding-left: 40px;
     padding-top: 20px;
+    padding-bottom: 20px;
     color: white;
 }
 
@@ -59,4 +79,25 @@ h2 {
     width: 300px;
     padding-left: 10px;
     vertical-align: top;
+}
+
+.poscaption {
+    display: inline-block;
+    width: 300px;
+    padding-left: 10px;
+    vertical-align: top;
+}
+
+.poscaption1 {
+    display: inline-block;
+    width: 700px;
+    padding-left: 10px;
+    vertical-align: top;
+}
+
+.reflection {
+    display: inline-block;
+    width: 650px;
+    vertical-align: top;
+    padding-right: 50px;
 }
